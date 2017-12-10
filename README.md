@@ -1,2 +1,2 @@
-# GeneticData
-Some datasets used in my recent work.
+# NFLB
+All pre-processed datasets used for experiments on the Noise Free Latent Block Model (NFLB)
