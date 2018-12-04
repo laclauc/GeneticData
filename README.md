@@ -10,6 +10,10 @@ It contains the followings:
 - Launch_me.R -- an example for running the different algorithms on a simulated dataset. 
 
 ---------------------------------------------------------------------------------------------------
+License & Disclaimer 
+The codes can be used for research purposes only. This package is strictly for non-commercial academic use only.
+
+---------------------------------------------------------------------------------------------------
 Please cite the following paper if you use the codes:
 C. Laclau and V. Brault, *Noise-free Latent Block Model for High Dimensional Data*, Data Mining and Knowledge Discovery, Springer, 2018 - DOI: 10.1007/s10618-018-0597-3
 
