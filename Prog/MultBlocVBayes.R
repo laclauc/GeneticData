@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 MultBlocVBayes=function(data,g,m,a=4,b=1,C=rep(1,2),e=rep(1,max(data$x)),ini=list(n_init=20,ale=TRUE),niter=1000,eps=10^(-16),epsi=10^(-16),epsi_int=0.1,niter_int=1){
   r=max(data$x)
   v_ijh=array(unlist(lapply(1:r,function(h){data$x==h})),c(n,d,r))

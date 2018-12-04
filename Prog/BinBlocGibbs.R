@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 BinBlocGibbs=function(data,g,m,a=4,b=1,C=c(1,1),e=c(1,1),niter=1000,ini=list(ale=TRUE),eps=10^(-16),verbatim=TRUE){
   if (is.null(ini$theta)){
     init=Init(g,m,data$x,ale=ini$ale)

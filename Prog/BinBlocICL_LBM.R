@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 BinBlocICL_LBM =function (data,z1,w1,a=4,b=1){
   
   x=data$x;

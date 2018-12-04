@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 BinBlocClassement=function(theta,Part=list()){
   thetares=theta
   ind_i=order(theta$alpha_kl%*%theta$tau_l)

@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 BinBlocVBayes_LBM=function(data,g,m,a=4,b=1,ini=list(n_init=20,ale=TRUE),niter=1000,eps=10^(-16),epsi=10^(-16),epsi_int=0.1,niter_int=1,verbatim=TRUE){
   if (any(names(ini)=="n_init")){
     if (!is.numeric(ini$n_init)){

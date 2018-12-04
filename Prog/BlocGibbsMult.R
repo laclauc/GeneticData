@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 BlocGibbsMult=function(v_ijh,theta,a,b,C,e,t_jl,niter,eps=10^(-16)){
   g=dim(theta$alpha_kl)[1]
   m=dim(theta$alpha_kl)[2]

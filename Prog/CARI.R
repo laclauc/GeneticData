@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 ARI=function(z,zprime){
   L_z=length(z)
   if (L_z!=length(zprime)){

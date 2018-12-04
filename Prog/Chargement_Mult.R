@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
   source("Prog/MultBlocClassement.R")
   source("Prog/MultBlocICL.R")
   source("Prog/MultBlocXemAlpha_kl.R")

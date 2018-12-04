@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 MultBlocGibbs=function(data,g,m,a=4,b=1,C=rep(1,2),e=rep(1,max(data$x)),niter=1000,ini=list(ale=TRUE),eps=10^(-16)){
   r=max(data$x)
   v_ijh=array(unlist(lapply(1:r,function(h){data$x==h})),c(n,d,r))

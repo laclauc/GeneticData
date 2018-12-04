@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 Init=function(g,m,x_ij,ale=TRUE){
   eps=10^(-16)
   n=dim(x_ij)[1];

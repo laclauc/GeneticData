@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 MultBlocRnd =function(n,d,theta){
   
   Z=PartRnd(n,theta$pi_k);

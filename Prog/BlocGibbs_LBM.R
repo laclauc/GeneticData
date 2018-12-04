@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 BlocGibbs_LBM=function(x_ij,theta,a,b,t_jl,niter,eps=10^(-16),verbatim=TRUE){
   g=dim(theta$alpha_kl)[1]
   m=dim(theta$alpha_kl)[2]

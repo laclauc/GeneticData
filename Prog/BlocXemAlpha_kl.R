@@ -1,3 +1,11 @@
+# -------------
+# Copyright (c) 2018 V. Brault, C. Laclau
+# -------------
+#
+# -------------
+# License
+# The code can be used for research purposes only.
+
 BlocXemAlpha_kl =function(x_ij,theta,t_jl,a,b,C,e,niter=100000,eps=10^(-16),epsi=10^(-16),epsi_int=0.1,niter_int=1){
   alpha_kl=theta$alpha_kl;
   pi_k=theta$pi_k;
